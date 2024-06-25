@@ -1,0 +1,40 @@
+/* Breadcrumbs et titre */
+#items_avant_hero{
+    display: row;
+}
+
+
+#breadcrumbs_items{
+    display: flex;
+}
+
+
+.breadcrumbs{
+    font-size: 0.7rem;
+    color: rgb(156, 156, 156);
+    text-decoration: none;
+    margin-right:1% ;
+
+}
+
+
+#titre_page{
+    margin-bottom: 1%;
+}
+
+
+/* Section principale */
+
+#hero_section{
+    display: flex;
+    flex-direction: column;
+}
+
+#cond_generale_titre{
+    margin-bottom: 1%;
+    color:var(--couleur_secondaire);
+}
+
+h3{
+    margin-top: 1%
+}

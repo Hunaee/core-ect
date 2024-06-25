@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, *:after, *::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins';
+}
+
+
+:root{
+    --couleur_secondaire:#8E8DC1;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+nav{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+
+.img_logo{
+    width: 5%;
+}
+
+.img_background_logo{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+hr{
+    margin-bottom: 2%;
+}
+
+.menu{
+    color: black;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+
+.menu:hover{
+    color:var(--couleur_secondaire);
+
+}
+
+
+/* Page liste */
+
+.item_container {
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.item_label {
+    width: 50%;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.item_btn{
+    background-color: var(--couleur_secondaire);
+    border-radius: 40px;
+    color: white;
+    border: none;
+    padding: 0.2rem 1rem;
+}
+
+.item_list_nav {
+    width: auto;
+}
+
+.item_list_nouvelle_cat{
+    display: block; 
+    margin: 0 auto;
+    width: 15rem;
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+
+.item_save{
+    width: 10rem;
+}
+
+.hero_section_page{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center; /* Centre les éléments horizontalement */
+    
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center; /* Centre les éléments horizontalement */
+}
+
+label{
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+input{
+    margin-bottom: 4rem;
+    text-align: center;
+    width: 25rem;
+    height: 2rem;
+    border-radius: 40px;
+}
+
+.btn_back{
+    margin-top: 4rem;
+}
+
+.btn_nouv_confirmer{
+    margin-top: 2.5rem;
+    width: 25rem;
+}
+
+.item_save{
+    width: 25rem;
+}

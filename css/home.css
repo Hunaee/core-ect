@@ -1,0 +1,136 @@
+/* CSS pour tous les appareils */
+
+/* Styles pour le Hero section */
+#hero_section {
+    width: 100%;
+}
+
+#titre {
+    color: #8E8DC1;
+}
+
+
+
+.bloc_sous_section_3 {
+    width: 100%;
+    margin-bottom:0%;
+}
+
+.bloc_sous_section_3:not(h2) {
+    line-height: 2;
+    margin-top:2%;
+}
+
+/* Boutons duo */
+#btns_hero{
+    display: flex;
+    justify-content: space-between;
+    margin: 7% 0 0 0;
+
+}
+.btn_duo {
+    background-color: white;
+    border-radius: 40px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    padding: 3%;
+    font-size: 1rem;
+}
+
+
+
+#btn_se_connecter {
+    padding: 0 4% 0 4%;
+}
+
+
+
+/* Image */
+
+#img_intro_home {
+    height:100%;
+    width: auto;
+    border-radius: 40%;
+}
+
+/* Items sous hero */
+#bloc_secondaire {
+    font-size: 1.2rem;
+}
+
+.item {
+    text-align: center;
+}
+
+.sous_item {
+    font-weight: 700;
+}
+
+/* CSS spécifique pour le bureau (desktop) */
+@media only screen and (min-width: 767px) {
+    /* Styles de disposition de layout */
+    #hero_section {
+        display: flex;
+        align-items: flex-start;
+        height: 50%;
+
+    }
+
+    .bloc_sous_section_3 {
+        display: grid;
+    }
+
+    #bloc_secondaire {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #sous_section_1,
+    #sous_section_2 {
+        height: 100%; /* Obligé de définir une taille pcq l'image ne prenait pas la taille du bloc parent */
+    }
+
+    #sous_section_2 {
+        margin-left: auto; /* Alignement à droite */
+    }
+
+    #bloc_secondaire{
+        margin-top: 4%;
+
+    }
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+
+    #titre{
+        display: none;
+    }
+
+    #hero_section{
+        height: fit-content;
+        margin-top: 23%;
+    }
+
+    #img_intro_home{
+        width: 100%;
+    }
+
+
+    #sous_section_1{
+
+        margin: 0 0 6% 0;
+    }
+
+    .item{
+        margin: 4% 0 4% 0;
+    }
+    #bloc_secondaire{
+        height: fit-content;
+        padding:3vh 0 3vh 0;
+        
+    }
+
+    }

@@ -1,0 +1,13 @@
+.cls-1 {
+    fill: none;
+  }
+
+  .cls-1, .cls-2 {
+    stroke: #000;
+    stroke-miterlimit: 10;
+    stroke-width: 60px;
+  }
+
+  .cls-2 {
+    fill: mediumaquamarine;
+  }

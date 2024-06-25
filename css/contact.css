@@ -1,0 +1,133 @@
+/* Breadcrumbs et titre */
+#items_avant_hero{
+    display: row;
+}
+
+
+#breadcrumbs_items{
+    display: flex;
+}
+
+
+.breadcrumbs{
+    font-size: 0.7rem;
+    color: rgb(156, 156, 156);
+    text-decoration: none;
+    margin-right:1% ;
+
+}
+
+
+#titre_page{
+    margin-bottom: 0.2%;
+}
+
+
+/* Section principale */
+
+#hero_section{
+    display: flex;
+    width: 100%;
+    margin-top: 1%;
+    height: 60%;
+}
+
+
+.sous_section_hero{
+    flex:1;
+
+}
+/* Information entreprise */
+
+
+
+.information_contact_texte:not(:last-child){
+    margin-top: 1%;
+    margin-bottom: 3%;
+
+}
+
+
+/* Formulaire */
+
+input[type="placeholder"]{
+    border-radius: 10px;
+    padding-left:2%;
+    border: 2px solid #cecece;
+    background-color: rgba(169, 208, 213, 0.07);
+
+}
+
+textarea{
+    font-family: 'Poppins';
+    border-radius: 10px;
+    padding-left:2%;
+    border: 2px solid #cecece;
+    background-color: rgba(169, 208, 213, 0.07);
+    height: 200%;
+}
+
+#formulaire_contact{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+
+
+#btn_confirmation{
+    background-color: white;
+    border-radius: 40px;
+    padding: 1%;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    width: 30%;
+    align-self: center;
+    margin-top:2% ;
+}
+
+label:not(:first-child){
+    margin-top: 1%;
+}
+
+
+
+/* Dekstop */
+/* Dekstop */
+/* Dekstop */
+@media only screen and (min-width: 767px) {
+
+    
+}
+
+
+
+/* Mobile */
+/* Mobile */
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    #items_avant_hero{
+        margin-top: 23%;
+    }
+
+
+    #hero_section{
+        flex-direction: column;
+    }
+
+    #formulaire_contact{
+        margin-top:15% ;
+        padding-bottom: 5%;
+    }
+    #btn_confirmation{
+        margin-top: 4%;
+    }
+
+
+    #breadcrumbs_items>*:not(:first-child){
+        padding: 0 4% 0 4%;
+    }
+}

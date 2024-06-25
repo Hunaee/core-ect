@@ -1,0 +1,69 @@
+/* Breadcrumbs et titre */
+#items_avant_hero{
+    display: row;
+}
+
+
+#breadcrumbs_items{
+    display: flex;
+}
+
+
+.breadcrumbs{
+    font-size: 0.7rem;
+    color: rgb(156, 156, 156);
+    text-decoration: none;
+    margin-right:1% ;
+
+}
+
+
+#titre_page{
+    margin-bottom: 1%;
+}
+
+
+/* Section principale */
+
+#hero_section{
+    width: 100%;
+    height: 55%;
+    display: flex;
+}
+
+.sous_section_hero{
+    flex:1;
+}
+
+/* Informations utiles */
+
+#informations_mentions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+#nom_entreprise{
+    color:#8E8DC1;
+
+}
+
+
+
+
+/* Img */
+
+#bloc_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+#image{
+    height: 100%;
+    width: auto;
+}
